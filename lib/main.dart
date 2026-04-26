@@ -128,7 +128,7 @@ final _lightTheme = ThemeData(
     backgroundColor: verdeManzana,
     foregroundColor: Colors.black87,
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     elevation: 4,
     color: Colors.white,
     shape: RoundedRectangleBorder(
@@ -174,7 +174,7 @@ final _darkTheme = ThemeData(
     backgroundColor: verdeManzana,
     foregroundColor: Colors.black87,
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     elevation: 4,
     color: const Color(0xFF1E1E2F),
     shape: RoundedRectangleBorder(
